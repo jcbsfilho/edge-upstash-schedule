@@ -88,7 +88,7 @@ Environments for use in the action workflow:
 ```
 
 
-Add the Redis Database access credentials to the `secrets`:
+Add Signing Keys to the `secrets`:
 
 ```bash
     QSTASH_CURRENT_SIGNING_KEY=<value>
