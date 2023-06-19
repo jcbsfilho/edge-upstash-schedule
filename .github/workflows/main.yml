@@ -46,13 +46,14 @@ jobs:
 
       - name: edge-computing-actions
         id: azion_edge
-        uses: jcbsfilho/edge-computing-deploy@v3.0.4
+        uses: jcbsfilho/edge-computing-deploy@v3.1.0
         with:
           azionPersonalToken: ${{ secrets.AZION_PERSONAL_TOKEN }}
           commitConfig: true
           functionFilePath: "worker/function.js"
           functionArgsFilePath: "args.json"
           configFilePath: "azion/azion.json"
+          applicationAcceleration: true
 
       - name: Get the output Azion Edge Deploy
         run: |
