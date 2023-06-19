@@ -14,6 +14,7 @@ Before use template, ensure that you have the following prerequisites:
 ---
 
 > - [Create an Azion account](#Create-an-Azion-account)
+> - [Get Signing Keys](#Get-Signing-Keys)
 > - [Deploy on Edge](#Deploy-on-Edge)
 >   - [Marketplace](#Marketplace)
 >   - [Github Actions](#Github-Actions)
@@ -24,6 +25,13 @@ Before use template, ensure that you have the following prerequisites:
 ## Create an Azion account
 
 To create an Azion account, just [visit the sing-up page](https://manager.azion.com/signup/) at [Azion's homepage](https://www.azion.com/en/).
+
+---
+
+## Get Signing Keys
+
+Go to [Upstash Console](https://console.upstash.com/qstash) and copy the `QSTASH_CURRENT_SIGNING_KEY` and `QSTASH_NEXT_SIGNING_KEY`.
+
 
 ---
 
@@ -38,7 +46,7 @@ To perform the deploy on edge, you have two ways to do:
 
 Build and Application [choose a template](https://manager.azion.com/build-application/build/choose-template)
 
-Choose **Upstash QStash Schedule Function** template
+Choose **Edge Schedule QStash** template
 
 Generate your personal github token by visiting the documentation at [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
