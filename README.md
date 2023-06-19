@@ -11,6 +11,8 @@ Before use template, ensure that you have the following prerequisites:
 - Azion account [visit the sing-up page](https://manager.azion.com/signup/)
 - Upstash account (Sign up at [Upstash](https://upstash.com))
 
+> **Important:** Enable Application Acceleration to this site to use advanced rules engine, advanced cache key, bypass cache, forward cookies or support to proxy methods (post/put/patch/delete).
+
 ---
 
 > - [Create an Azion account](#Create-an-Azion-account)
@@ -41,6 +43,7 @@ To perform the deploy on edge, you have two ways to do:
 
 - By using Marketplace.
 - By using GitHub actions.
+
 
 ### Marketplace
 
