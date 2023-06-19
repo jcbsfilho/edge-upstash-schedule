@@ -2,7 +2,7 @@
 
 This template helps to create an edge function that will be the reciever for Qstash.
 
-## Edge Schedule
+## QStash EdgeFunction Scheduler
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ To perform the deploy on edge, you have two ways to do:
 
 Build and Application [choose a template](https://manager.azion.com/build-application/build/choose-template)
 
-Choose **Edge Schedule QStash** template
+Choose **QStash EdgeFunction Scheduler** template
 
 Generate your personal github token by visiting the documentation at [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
